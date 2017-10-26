@@ -1,0 +1,9 @@
+# Contains models to be estimated with DNN. Some models have been pretrained, in others there is only the architecture so they have to be trained from scratch.
+- squeezenet_keras_224_224: only architecture, needs to be trained
+	- source: https://github.com/DT42/squeezenet_demo/blob/master/model.py
+- cnn_keras_224_224: already trained with in data_1
+	- source: https://github.com/cena0805/ros-traffic-light-classifier
+- squeezenet_tf_227_227: trained with a multipurpose database, needs bo be further trained with traffic light images
+	- source: https://github.com/DT42/squeezenet_demo
+- squeezenet_keras_tf_32_32: trained with bosch database, using keras then exporting to .pb format, and for three categories (green, red and yellow)
+	- source: https://github.com/tokyo-drift/traffic_light_classifier
