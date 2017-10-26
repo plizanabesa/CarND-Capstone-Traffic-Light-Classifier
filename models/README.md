@@ -5,5 +5,7 @@
 	- source: https://github.com/cena0805/ros-traffic-light-classifier
 - squeezenet_tf_227_227: trained with a multipurpose database, needs bo be further trained with traffic light images
 	- source: https://github.com/DT42/squeezenet_demo
+	- tools: contains scripts to further train this pretrained squeezenet model with traffic light information
+		- source: https://github.com/priya-dwivedi/CarND-Capstone-Carla
 - squeezenet_keras_tf_32_32: trained with bosch database, using keras then exporting to .pb format, and for three categories (green, red and yellow)
 	- source: https://github.com/tokyo-drift/traffic_light_classifier
